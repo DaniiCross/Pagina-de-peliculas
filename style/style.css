@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    flex-direction: column;
+}
+
+body{ /*las etiquetas se pueden llamar solamente con el nombre*/
+    background-color: rgb(211, 236, 236);
+    font-family:Bebas Neue;
+    text-align: center;
+}
+
+#logo {
+    width:  60px;  /*Le da tamaño a las imagenes*/
+    border-radius: 15px; /* le da en el borde una  forma*/
+
+}
+
+header{
+    background-color: #115c7a ; /* le da contorno a la letra*/
+    color: #d0d7df; /* le da color a la letra*/
+    text-align:left ; /*alinea el texto*/
+    padding: 1%;
+}
+
+nav{
+    display: inline-block;
+}
+
+.nav-item{
+    display: inline-block;
+    font-size: 20px; /*tamaño de letra*/
+    padding-left: 20px;
+    opacity: .7; /* le agrega transparencia*/
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.nav-item:hover{
+    color: antiquewhite;
+}
+
+
+.main{
+    display: inline;
+    text-align: center;
+    margin: 30%;
+}
+
+.section-title{
+    text-align: center;
+    display: inline;
+    color: #327e9c;
+
+}
+
+.main-title{
+    margin-top: 30px;
+    font-size:45px
+}
+
+main{
+    text-align: center;
+    display: inline-block
+}
+
+
+.section-image{
+    text-align: center;
+    margin: 30px;
+}
+
+div .containerC{
+    width: 10px;
+    height: 10px;
+    flex-direction: row;
+}
+
+
+
+
+footer{
+    background-image: radial-gradient(circle, #327e9c, #0e4155);
+     color: #d0d7df;
+     text-align: center;
+     height: 60px; /*darle una altura*/
+     opacity: .8;
+     font-size: 20px;
+     padding-top:20px;
+     margin-top: 50%;
+
+ }
+

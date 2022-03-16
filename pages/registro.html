@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/registro.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="div-registro">
+            <img id="logo" src="../image/logo.png" alt="Logo">
+                <nav>
+                 <ul>
+                    <li class="nav-item"><a href="../index.html">Pagina de inicio</a></li>
+                    <li class="nav-item">Registro </li>
+                 </ul>
+                </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-form">
+            <h1>Formulario de registro</h1>
+            <hr>
+            <form class="form" action="">
+                <label for="nombre">Nombre</label>
+                <input  id="name" required type="text" name="nombre" ><br>
+                <label for="apellido">Apellido</label>
+                <input id="apellido" required type="text" name="apellido" id="apellido"><br>
+                <label for="telefono">Telefono</label>
+                <input  id="telefono" required type="number" name="telefono" id="telefono"><br>
+                <label for="Direccion">Direccion</label>
+                <input id="direccion" required type="text" name="direccion" id="direccion"><br>
+                <label for="observaciones">Observaciones</label>
+                <textarea name="observaciones" id="observaciones" cols="30" rows="10" ></textarea>
+                <!--el text tarea permite  crear un cuadro de texto-->
+                <br>
+                <button id="btn" type="submit">INGRESAR</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <h5 class="footer-title">Todos los derechos reservados - Hecho por Daniela Uribe</h3>
+    </footer>
+
+    <script src="../scripts/registro.js"></script>
+</body>
+</html>
