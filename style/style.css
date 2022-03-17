@@ -3,7 +3,6 @@
 *{
     padding: 0%;
     margin: 0%;
-    flex-direction: column;
 }
 
 body{ /*las etiquetas se pueden llamar solamente con el nombre*/
@@ -46,36 +45,53 @@ nav{
 .main{
     display: inline;
     text-align: center;
-    margin: 30%;
+    margin: 60px;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
 }
 
-.section-title{
+.main .section-title{
     text-align: center;
-    display: inline;
     color: #327e9c;
-
 }
 
 .main-title{
-    margin-top: 30px;
     font-size:45px
-}
-
-main{
-    text-align: center;
-    display: inline-block
 }
 
 
 .section-image{
     text-align: center;
-    margin: 30px;
+    margin: 80px;
 }
 
-div .containerC{
-    width: 10px;
-    height: 10px;
-    flex-direction: row;
+#contenedorContenedor{
+    display: flex;
+    flex-direction: wrap;
+    margin: 10%;
+    font-size: 20px;
+    font-size: 20px;
+}
+
+.container{
+    padding: 10%;
+    background-color: #115c7a;
+    display: flex;
+    flex-direction: wrap;
+    align-items: stretch;
+}
+
+.container > div> h3{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.container > div> img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
 }
 
 
@@ -83,13 +99,13 @@ div .containerC{
 
 footer{
     background-image: radial-gradient(circle, #327e9c, #0e4155);
-     color: #d0d7df;
-     text-align: center;
-     height: 60px; /*darle una altura*/
-     opacity: .8;
-     font-size: 20px;
-     padding-top:20px;
-     margin-top: 50%;
+    color: #d0d7df;
+    text-align: center;
+    height: 60px; /*darle una altura*/
+    opacity: .8;
+    font-size: 20px;
+    padding-top:20px;
+    margin-top: 50%;
 
  }
 

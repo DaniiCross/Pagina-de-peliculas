@@ -22,11 +22,11 @@ export let tarjetaPelicula = [
         img:"./image/laberinto.jpg",
         titulo: "El laberinto del fauno"
     }
-    ,
+    /*,
     {
         id: 5,
         img:"./image/Mity.jpg",
-        titulo: "La increible vida de walter Mitty",
+        titulo: "La vida de walter Mitty",
     }
     ,
     {
@@ -46,7 +46,7 @@ export let tarjetaPelicula = [
         img:"./image/zombies.jpg",
         titulo: "Devastacion 28 dias despúes"
 
-    }
+    }*/
 
 ]
 

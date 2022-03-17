@@ -16,7 +16,7 @@ form.addEventListener('submit', (e) =>{
     localStorage.setItem('apellidoUsuario', apellido)
     localStorage.setItem('telefonoUsuario', telefono)
     localStorage.setItem('direccionUsuario', direccion)
-    localStorage.setItem('observaciones', observaciones)
+    localStorage.setItem('observaciones', observacion)
 
 
 })
