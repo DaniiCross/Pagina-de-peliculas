@@ -6,6 +6,8 @@ export const cards = (data, container) => {
         imgCard.setAttribute ('src', element.img);
         let titleCard = document.createElement('h3');
         titleCard.innerHTML = element.titulo;
+        let parrafo = document.createElement('p');
+        parrafo.innerHTML = element.resumen
 
         
 
@@ -14,9 +16,27 @@ export const cards = (data, container) => {
 
         container.appendChild(divCard);
 
+        imgCard.addEventListener ("click", function() {
+            divCard.appendChild(parrafo);
+            
+            //console.log("click")
+        });
+
+        imgCard.addEventListener ("mouseleave", function() {
+            divCard.removeChild(parrafo);
+            
+            
+        });
+
+
+        
+
 
     })
 }
+
+
+
 
 
     /*data.forEach(element =>{
